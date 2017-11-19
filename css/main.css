@@ -1,0 +1,29 @@
+body {
+    text-align: center;
+    background-color: #002351;
+    font-family: 'Lobster', cursive;
+    color:#ffffff;
+    font-size: 125%;
+    background-image:url('img/csumb.png');
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-position:center;
+}
+.pharmacy {
+    /*background-color: white;*/
+    text-align: center;
+    width: 300px;
+    border-style: groove;
+    border-width: 5px;
+    border-radius: 5px;
+    margin: 0 auto;
+    /*color: black;*/
+}
+
+summary, p {
+    font-size: 150%;
+}
+
+h{
+    font-size:3em;
+}
