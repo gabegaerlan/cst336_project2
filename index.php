@@ -17,7 +17,6 @@ function getAllTypes() {
                 <option value>Choose a type</option>
                 <?=getAllTypes?>
             </select>
-            <input type="submit" name="submit" value="Create Itinerary">
         </form>
     </body>
 </html>
