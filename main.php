@@ -100,10 +100,15 @@ function getItems() {
                 <?=getAllTypes()?>
             </select></br>
 
-            Sort names by:</br>
-            <input type="radio" name="sort" value="desc" class="rad" checked> Descending </br>
-            <input type="radio" name="sort" value="asc" class="rad"> Ascending </br></br>
-            <input type="submit" name="submit" value="Go">
+            Sort Products By:</br>
+            <select name="sort">
+                <option value="desc">Descending</option>
+                <option value="asc" selected>Ascending</option>
+            </select>
+
+            <!--<input type="radio" name="sort" value="desc" > Descending </br>-->
+            <!--<input type="radio" name="sort" value="asc" checked> Ascending </br></br>-->
+            <input type="submit" name="submit" value="Search!">
             </fieldset>        
         </form>
         <?=getItems()?>
