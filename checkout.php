@@ -12,7 +12,7 @@ function displayItems(){
 }
 if(isset($_GET['Checkout'])){
         $_SESSION['shoppingCart'] = array();
-        header("Location: login.php");
+        header("Location: main.php");
 }
 
 
@@ -49,7 +49,7 @@ if(isset($_GET['Checkout'])){
         <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
     </head>
     <body>
-        <a href = "main.php"><bold>Get more Items</bold></a>
+            <a href = "main.php" font-family='Lobster','cursive'>BACK</a>
             <h1>Checkout Items</h1>
             <?=displayItems()?>
         <form method='GET'>
